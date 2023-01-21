@@ -1,6 +1,10 @@
 
 body{
     text-align: center;
+    font-family: 'Merriweather';
+    margin:0;
+    line-height: 2;
+    background-color: #F4F9F9;
 }
 
 .timeline{
@@ -21,7 +25,7 @@ body{
     display: block;
     margin: -90px 0;
     position: relative;
-    background-color: #FFE1E1;
+    background-color: #CCF2F4;
 
 }
 
@@ -39,7 +43,7 @@ body{
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    border: 5px solid #191919;
+    border: 5px solid #AAAAAA;
     border-radius: 50%;
 }
 
@@ -51,7 +55,7 @@ body{
     transform: translateY(-50%);
     width: 7%;
     height: 2px;
-    background:black;
+    background:#AAAAAA;
     z-index: -1;
 }
 
@@ -63,7 +67,7 @@ body{
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    border: 5px solid #191919;
+    border: 5px solid #AAAAAA;
     border-radius: 50%;
 }
 
@@ -75,22 +79,40 @@ body{
     transform: translateY(-50%);
     width: 7%;
     height: 2px;
-    background:black;
+    background:#AAAAAA;
     z-index: -1;
 }
 
 p{
-    color: black;
+    color:#AAAAAA ;
 }
 
 h1{
-    color: black;
+    margin:0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 2rem;
+    color: #A4EBF3;
+}
+
+
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+
+
+
+.work-top-section{
+    width: 100%;
+    background-color:#CCF2F4;
+    margin: auto 0 auto 0;
 }
 
 .navbar{
     width:65%;
     margin: 0 auto 0 auto;
-    padding: 15px 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,18 +122,23 @@ h1{
     list-style:none;
     display: inline-block;
     margin: 0 15px;
+    padding-left: 35px;
 }
 
 .navbar ul li a{
     text-decoration: none;
-    color: #FF8E9E;
+    color: #AAAAAA;
     font-size: 15px;
     font-family: 'Merriweather';
 }
 
+.bottom-container{
+    background-color:#CCF2F4 ;
+    padding: 50px 0 20px;
+}
 
-#icon{
-    width: 80px;
-    cursor: pointer;
+.exp-header{
+    font-size: 5em;
+    padding-top: 25px;
 }
 
